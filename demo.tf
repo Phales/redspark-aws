@@ -1,8 +1,8 @@
 provider "aws" {
     version = "~> 2.0"
     region = "us-east-2"
-    access_key = "Mettez ici votre clé d'accès (Profil > Mes identifiants de sécurité, puis Créer une clé d'accès)"
-    secret_key = "Copier la clé secrète ici"
+    access_key = "AKIA5LGUITKA2JDTFZFK" #"Mettez ici votre clé d'accès (Profil > Mes identifiants de sécurité, puis Créer une clé d'accès)"
+    secret_key = "TEF3blOhLc3IVeifhwsVVnhtWmZ38D0vAbkoHU5j" #"Copier la clé secrète ici"
 }
 
 resource "aws_instance" "web-zone-a" {
